@@ -9,7 +9,8 @@ This app is used to do speaker diarizaiton on audio and video files. This is a w
 General user instructions for CLAMS apps are available at [CLAMS Apps documentation](https://apps.clams.ai/clamsapp).
 
 ### System requirements
-* Requires Python3 with `clams-python`, `clams-utils`, `torch` and `pyannote.audio` to run the app locally.
+* Requires Python3 with `clams-python`, `torchaudio`, `pyannote.audio`, 
+and `ffmpeg-python` to run the app locally.
 * Requires an HTTP client utility (such as `curl`) to invoke and execute analysis.
 * Requires docker to run the app in a Docker container 
 
